@@ -1,0 +1,51 @@
+.authPopupContainer {
+  background-color: #303338;
+  width: 50%;
+  padding: 20px 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  .loginFormContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .loginFormTitle {
+      font-family: Inter;
+      font-size: 24px;
+      font-weight: 600;
+      align-self: center;
+    }
+    .loginFormSubTitle {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      opacity: 0.5;
+      margin-top: 12px;
+      margin-bottom: 36px;
+      align-self: center;
+    }
+    .loginFormInputWrapper {
+      width: 80%;
+      align-self: center;
+      margin-bottom: 36px;
+    }
+    .loginButtonWrapper {
+      width: 80%;
+      align-self: center;
+    }
+    .btnSecondaryText {
+      font-family: Inter;
+      font-size: 12px;
+      font-weight: 400;
+      margin-top: 8px;
+      opacity: 0.6;
+      display: flex;
+      flex-direction: row;
+      align-self: center;
+      .btnSecondaryRegisterText {
+        color: #04a7fc;
+        cursor: pointer;
+        margin-left: 4px;
+      }
+    }
+  }
+}

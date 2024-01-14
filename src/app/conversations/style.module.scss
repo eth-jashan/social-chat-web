@@ -1,0 +1,21 @@
+.conversationContainerScreen {
+  height: 100vh;
+  width: 100vw;
+  background-color: #303338;
+  display: flex;
+  flex-direction: row;
+  .chatListSidebarWrapper {
+    width: 18%;
+    height: 100%;
+    background-color: #2a2d31;
+    padding: 4px;
+  }
+  .mainChatScreenWrapper {
+    width: 65%;
+    height: 100%;
+  }
+  .chatAccountInfoSidebarWrapper {
+    width: 20%;
+    height: 100%;
+  }
+}

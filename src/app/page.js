@@ -1,6 +1,7 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-
+import Image from "next/image";
+import styles from "./page.module.css";
+import { Open_Sans } from "next/font/google";
+const openSans = Open_Sans({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -15,7 +16,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            By{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -91,5 +92,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }

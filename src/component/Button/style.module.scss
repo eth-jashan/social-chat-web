@@ -1,0 +1,14 @@
+.buttonContainerPrimary {
+  background-color: #5764f2;
+  padding: 12px 24px;
+  border-radius: 4px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  .titleStyle {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,35 @@
+.textInputContainer {
+  .authInputContainer {
+    .authInputLabel {
+      font-family: Inter;
+      font-size: 12px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      opacity: 0.6;
+    }
+    .authInputWrapper {
+      min-width: 80%;
+      background-color: #1e1f22;
+      padding: 4px;
+      height: 48px;
+      border-radius: 8px;
+      padding: 0px 8px;
+      .authInputElement {
+        background-color: transparent;
+        border: none;
+        width: 90%;
+        height: 100%;
+      }
+      .authInputElement:focus {
+        outline: none;
+      }
+    }
+    .forgotLabel {
+      font-family: Inter;
+      font-size: 12px;
+      font-weight: 400;
+      margin-top: 8px;
+      color: #04a7fc;
+    }
+  }
+}
